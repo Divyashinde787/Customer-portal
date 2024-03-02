@@ -1,0 +1,57 @@
+Angular CLI 
+Node.js
+Visual Studio Code
+To check if Node.js is already installed on your machine, check for its version using the following command. 
+node -v , then install mpn, npm i @angular/cli
+creating project using ng new commond (customer portal )
+then npm install bootstrap –save 
+after that Create a new component using cmd : ng g c user, ng g s common
+
+ create NAV component for nav bar using bootstrap
+again create home component for home page in bootstrap
+ 
+user.component.html
+ using name and formControlname we get the value or details of person what we have to put.
+ReactiveformModule :Reactive forms provide a model-driven approach to handling form
+ inputs whose values change over time. Used for get data , catch data.
+
+ users.component.ts
+using FormBuilder reduces the syntax to be written it is a part of reactive form
+then take one varible username; take group () for all inputs username, number, age, email
+add mtd/////this.router.navigate(["/userlist"]); it will redirect on userlist page.
+
+then add data api store in database - install json server:: ///////npm i json server/////////// 
+to start server use //////Json-server db.json////////
+its provide api to add, update, delete 
+then we manuall add data in db.json and check data is added or not using localhost:3000/comments 
+GET    /posts
+GET    /posts/:id
+POST   /posts
+PUT    /posts/:id
+PATCH  /posts/:id
+DELETE /posts/:id
+POST creates a resource. PUT replaces a resource. PATCH updates a resource. DELETE removes a resource.
+
+
+common.service.ts
+then create service n use http client for create or heating all mtds 
+create method to add data thr api :.. and return api
+
+>> then declare service in component.user inside constuctor
+we pass the form value in servie line 28 and pass that data in data which api return
+
+
+create table(userlist.component.html) then add loop in it we bind the whole data using ngfor loop <
+create method(user.ts file) to fetch all users data comes from api print it userlist then writing login in service update it.
+
+
+///// delete
+create mtd (userlist.component.ts) to delte a record uding specific id. then declare in services
+the add click mtd in html to delete record 
+
+//// THEN ADAD update
+
+USERLIST.component.html file add a butten to edit data
+create mtd USERLIST.component.ts file to add logic update it using id .then create service for that mtd
+then we pass value using patchValue mtd
+when we click on edit button then add user form will be opend SO we use settimeout mtd 

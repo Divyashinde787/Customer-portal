@@ -1,0 +1,84 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "Users": [
+    {
+      "id": "2",
+      "Name": "Nikita shinde",
+      "Email": "shinde787@gmail.com",
+      "Mobile": 96379998763,
+      "Age": "25 "
+    },
+    {
+      "id": "3",
+      "Name": "div",
+      "Email": "divyashinde1920@gmail.com",
+      "Mobile": 9876534567,
+      "Age": 24
+    },
+    {
+      "id": "4",
+      "Name": "sumit",
+      "Email": "sumit@123",
+      "Mobile": 87653456,
+      "Age": 23
+    },
+    {
+      "id": "5",
+      "Name": "nikita",
+      "Email": "divyashinde1920@gmail.com",
+      "Mobile": "",
+      "Age": 23
+    },
+    {
+      "id": "7",
+      "Name": "sumit",
+      "Email": "sumit@123",
+      "Mobile": 87653456,
+      "Age": 23
+    },
+    {
+      "id": "8",
+      "Name": "sumit",
+      "Email": "sumit@123",
+      "Mobile": 87653456,
+      "Age": 23
+    },
+    {
+      "id": "e83f",
+      "Name": "neha",
+      "Email": "neha@123",
+      "Mobile": 123456654567,
+      "Age": 12
+    },
+    {
+      "id": "41cd",
+      "Name": "Divya",
+      "Email": "divyashinde1920@gmail.com",
+      "Mobile": "",
+      "Age": " "
+    },
+    {
+      "id": "f3fe",
+      "Name": "arati sonawane",
+      "Email": "parati123@com",
+      "Mobile": 9021979583,
+      "Age": 26
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
